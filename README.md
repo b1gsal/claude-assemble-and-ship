@@ -10,7 +10,7 @@ A small Claude Code plugin for reviewing and describing code changes.
 ## Usage
 
 ```bash
-claude --plugin-dir ./custom-plugin
+claude --plugin-dir .
 ```
 
 - Run `/qa-kit:summarize-changes` to summarise your branch.
@@ -20,7 +20,7 @@ claude --plugin-dir ./custom-plugin
 ## Structure
 
 ```
-custom-plugin/
+./
 ├── .claude-plugin/plugin.json
 ├── commands/summarize-changes.md
 └── agents/code-reviewer.md
